@@ -30,12 +30,3 @@ Average prediction error: about **7%**.
 pip install numpy scipy pandas matplotlib scikit-learn pypardiso
 python predict_solve_time.py
 ```
-
-To use a different PARDISO, change the line marked `# PARDISO call` in
-`measure_time`.
-
-## Files
-
-- `predict_solve_time.py`: main code
-- `simple_prototype.py`: first test with 10x10 matrices (too small, the times were mostly noise)
-- `predict_results/`: results from a run on my laptop
